@@ -1,0 +1,6 @@
+E:\projects\c#_projects\MyApp\MyApp\bin\Debug\MyApp.exe.config
+E:\projects\c#_projects\MyApp\MyApp\bin\Debug\MyApp.exe
+E:\projects\c#_projects\MyApp\MyApp\bin\Debug\MyApp.pdb
+E:\projects\c#_projects\MyApp\MyApp\obj\Debug\MyApp.exe
+E:\projects\c#_projects\MyApp\MyApp\obj\Debug\MyApp.pdb
+E:\projects\c#_projects\MyApp\MyApp\obj\Debug\MyApp.csprojResolveAssemblyReference.cache

@@ -1,0 +1,6 @@
+E:\projects\c#_projects\lab3\lab3\bin\Debug\lab3.exe.config
+E:\projects\c#_projects\lab3\lab3\bin\Debug\lab3.exe
+E:\projects\c#_projects\lab3\lab3\bin\Debug\lab3.pdb
+E:\projects\c#_projects\lab3\lab3\obj\Debug\lab3.csprojResolveAssemblyReference.cache
+E:\projects\c#_projects\lab3\lab3\obj\Debug\lab3.exe
+E:\projects\c#_projects\lab3\lab3\obj\Debug\lab3.pdb
