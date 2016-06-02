@@ -46,3 +46,6 @@ E:\projects\c#_projects\WebApplication1\WebApplication1\obj\Debug\WebApplication
 E:\projects\c#_projects\WebApplication1\WebApplication1\obj\Debug\WebApplication1.Migrations.NewsAuthor4.resources
 E:\projects\c#_projects\WebApplication1\WebApplication1\obj\Debug\WebApplication1.Migrations.NewsAuthor5.resources
 E:\projects\c#_projects\WebApplication1\WebApplication1\obj\Debug\WebApplication1.Migrations.NewsAuthor6.resources
+E:\projects\c#_projects\WebApplication1\WebApplication1\obj\Debug\WebApplication1.Migrations.DeleteauthorId.resources
+E:\projects\c#_projects\WebApplication1\WebApplication1\obj\Debug\WebApplication1.Migrations.Tags.resources
+E:\projects\c#_projects\WebApplication1\WebApplication1\obj\Debug\WebApplication1.Migrations.ChangeNewsTable.resources

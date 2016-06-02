@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.AspNet.Identity.EntityFramework;
+using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
@@ -6,7 +7,7 @@ using System.Web;
 
 namespace WebApplication1.Models
 {
-    public class WebApplication1Context : DbContext
+    public class WebApplication1Context : IdentityDbContext
     {
         // You can add custom code to this file. Changes will not be overwritten.
         // 
@@ -22,5 +23,12 @@ namespace WebApplication1.Models
         public System.Data.Entity.DbSet<WebApplication1.Models.News> News { get; set; }
 
         public System.Data.Entity.DbSet<WebApplication1.Models.Author> Authors { get; set; }
+
+        public System.Data.Entity.DbSet<WebApplication1.Models.Tag> Tags { get; set; }
+
+        public static WebApplication1Context Create()
+        {
+            return new WebApplication1Context();
+        }
     }
 }

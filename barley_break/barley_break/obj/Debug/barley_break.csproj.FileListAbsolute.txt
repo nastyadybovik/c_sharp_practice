@@ -1,0 +1,9 @@
+E:\projects\c#_projects\barley_break\barley_break\bin\Debug\barley_break.exe.config
+E:\projects\c#_projects\barley_break\barley_break\bin\Debug\barley_break.exe
+E:\projects\c#_projects\barley_break\barley_break\bin\Debug\barley_break.pdb
+E:\projects\c#_projects\barley_break\barley_break\obj\Debug\barley_break.csprojResolveAssemblyReference.cache
+E:\projects\c#_projects\barley_break\barley_break\obj\Debug\barley_break.Form1.resources
+E:\projects\c#_projects\barley_break\barley_break\obj\Debug\barley_break.Properties.Resources.resources
+E:\projects\c#_projects\barley_break\barley_break\obj\Debug\barley_break.csproj.GenerateResource.Cache
+E:\projects\c#_projects\barley_break\barley_break\obj\Debug\barley_break.exe
+E:\projects\c#_projects\barley_break\barley_break\obj\Debug\barley_break.pdb

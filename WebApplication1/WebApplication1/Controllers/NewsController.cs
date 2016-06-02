@@ -18,13 +18,8 @@ namespace WebApplication1.Controllers
         // GET: News
         public ActionResult Index()
         {
-            List<News> newsList = db.News.ToList();
-            foreach (News news in newsList) {
-                int authorId = news.AuthorId;
-                Author author = db.Authors.Find(authorId);
-               //
-            }
-            return View(newsList);
+        
+            return View(db.News.Include(nameof=>nameof.Author).Include(n => n.Tags).ToList());
         }
 
         // GET: News/Details/5

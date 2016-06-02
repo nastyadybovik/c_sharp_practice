@@ -16,12 +16,11 @@ namespace WebApplication1.Models
         public String Context { get; set; }
 
         [Display(Name="Perfect Author")]
-        public int Author { get; set; }
-
-
-        public int AuthorId { get; set; }
+        public Author Author { get; set; }
 
         [DataType(DataType.DateTime)]
         public DataType CreationDate { get; set; }
+
+        public List<Tag> Tags { get; set; }
     }
 }

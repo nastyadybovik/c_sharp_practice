@@ -21,7 +21,10 @@
             @Html.DisplayNameFor(model => model.CreationDate)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.AuthorId)
+            @Html.DisplayNameFor(model => model.Author)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Tags)
         </th>
         <th></th>
     </tr>
@@ -38,7 +41,15 @@
             @Html.DisplayFor(modelItem => item.CreationDate)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.AuthorId)
+            @Html.DisplayFor(modelItem => item.Author.Name)
+        </td>
+        <td>
+            @foreach (var tag in item.Tags)
+            {
+                @Html.DisplayFor(t => tag.Name )
+                <p></p>
+            }
+          
         </td>
         <td>
             @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |

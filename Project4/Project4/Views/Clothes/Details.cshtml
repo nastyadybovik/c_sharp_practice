@@ -1,0 +1,88 @@
+﻿@model Project4.Models.Clothes
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Clothes</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        
+            @if (Model.FileName != null)
+            {
+                <dt>
+                    
+                </dt>
+
+                <dd>
+
+                    <img  height="200" src="../../Files/@Html.DisplayFor(model => Model.FileName)" />
+
+                </dd>
+            }
+            else
+            {
+               
+            }
+   
+        <dt>
+            @Html.DisplayNameFor(model => model.Type)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Type)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SizeName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SizeName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MaterialName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MaterialName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Price)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CountryName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CountryName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+
+    </dl>
+</div>
+<p>
+@if (User.IsInRole("admin"))
+{
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id })
+    <span>|</span>
+}
+    @Html.ActionLink("Back to List", "Index")
+</p>
